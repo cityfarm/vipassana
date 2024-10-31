@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vipassana/static/css/main.f855e6bc.css",
-    "main.js": "/vipassana/static/js/main.d207339c.js",
+    "main.js": "/vipassana/static/js/main.04b2fc7f.js",
     "static/js/453.6893650a.chunk.js": "/vipassana/static/js/453.6893650a.chunk.js",
     "index.html": "/vipassana/index.html",
     "main.f855e6bc.css.map": "/vipassana/static/css/main.f855e6bc.css.map",
-    "main.d207339c.js.map": "/vipassana/static/js/main.d207339c.js.map",
+    "main.04b2fc7f.js.map": "/vipassana/static/js/main.04b2fc7f.js.map",
     "453.6893650a.chunk.js.map": "/vipassana/static/js/453.6893650a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d207339c.js"
+    "static/js/main.04b2fc7f.js"
   ]
 }
