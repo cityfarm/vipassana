@@ -1,419 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Simple landing page</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
-  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="vendors/aos/css/aos.css">
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
-  <header id="header-section">
-    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-    <div class="container">
-      <div class="navbar-brand-wrapper d-flex w-100">
-        <img src="images/Group2.svg" alt="">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="mdi mdi-menu navbar-toggler-icon"></span>
-        </button> 
-      </div>
-      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
-        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
-          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
-            <div class="navbar-collapse-logo">
-              <img src="images/Group2.svg" alt="">
-            </div>
-            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+  <head>
+    <title>Vipassana</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/css/owl.theme.default.css"
+    />
+    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="vendors/aos/css/aos.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <header id="header-section">
+      <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+        <div class="container">
+          <div class="navbar-brand-wrapper d-flex w-100">
+            <img src="images/Group2.svg" alt="" />
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="mdi mdi-menu navbar-toggler-icon"></span>
             </button>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features-section">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Blog</a>  
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Testimonials</a>
-          </li>
-          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
-          </li>
-        </ul>
+          </div>
+          <div
+            class="collapse navbar-collapse navbar-menu-wrapper"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav align-items-lg-center align-items-start ml-auto"
+            >
+              <li
+                class="d-flex align-items-center justify-content-between pl-4 pl-lg-0"
+              >
+                <div class="navbar-collapse-logo">
+                  <img src="images/Group2.svg" alt="" />
+                </div>
+                <button
+                  class="navbar-toggler close-button"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#header-section"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features-section">Vipassana</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#digital-marketing-section"
+                  >SN.Goenka</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feedback-section">Địa điểm</a>
+              </li>
+              <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+                <button
+                  class="btn btn-info"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  onclick="window.location.href='https://www.dhamma.org/vi/schedules/noncenter/vn';"
+                >
+                  Đăng Ký
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner">
+      <div class="container">
+        <h1 class="font-weight-semibold">
+          Vipassana<br />Thiền sư S.N. Goenka
+        </h1>
+        <h6 class="font-weight-normal text-muted pb-3">
+          Thiền Vipassana được giảng dạy bởi Thiền sư S.N. Goenka theo truyền
+          thống của Ngài Sayagyi U Ba Khin.
+        </h6>
+        <div>
+          <button
+            class="btn btn-opacity-light mr-1"
+            onclick="window.location.href='https://www.dhamma.org/vi/schedules/noncenter/vn';"
+          >
+            Đăng ký
+          </button>
+          <button class="btn btn-opacity-success ml-1">Tìm hiểu</button>
+        </div>
+        <img src="images/Group171.svg" alt="" class="img-fluid" />
       </div>
-    </div> 
-    </nav>   
-  </header>
-  <div class="banner" >
-    <div class="container">
-      <h1 class="font-weight-semibold">Search engine optimisation &<br>Marketing.</h1>
-      <h6 class="font-weight-normal text-muted pb-3">Simple is a simple template with a creative design that solves all your marketing and SEO queries.</h6>
-      <div>
-        <button class="btn btn-opacity-light mr-1">Get started</button>
-        <button class="btn btn-opacity-success ml-1">Learn more</button>
-      </div>
-      <img src="images/Group171.svg" alt="" class="img-fluid">
     </div>
-  </div>
-  <div class="content-wrapper">
-    <div class="container">
-      <section class="features-overview" id="features-section" >
-        <div class="content-header">
-          <h2>How does it works</h2>
-          <h6 class="section-subtitle text-muted">One theme that serves as an easy-to-use operational toolkit<br>that meets customer's needs.</h6>
-        </div>
-        <div class="d-md-flex justify-content-between">
-          <div class="grid-margin d-flex justify-content-start">
-            <div class="features-width">
-              <img src="images/Group12.svg" alt="" class="img-icons">
-              <h5 class="py-3">Speed<br>Optimisation</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>  
+    <div class="content-wrapper">
+      <div class="container">
+        <section class="features-overview" id="features-section">
+          <div class="content-header">
+            <h2>Vipassana là gì?</h2>
+            <h6 class="section-subtitle text-muted">
+              nghĩa là thấy sự việc đúng như thật<br />là một trong những phương
+              pháp thiền cổ xưa nhất tại Ấn độ.
+            </h6>
+          </div>
+          <div class="d-md-flex justify-content-between">
+            <div class="grid-margin d-flex justify-content-start">
+              <div class="features-width">
+                <img src="images/Group12.svg" alt="" class="img-icons" />
+                <h5 class="py-3">Speed<br />Optimisation</h5>
+                <p class="text-muted">
+                  Truyền thống thiền này được Đức Phật Gotama tái phát hiện cách
+                  đây hơn 2500 năm; và được Ngài giảng dạy như một liều thuốc
+                  chung chữa trị những bệnh chung của nhân loại – một Nghệ Thuật
+                  Sống. Phương pháp không tông phái này nhằm tới việc diệt trừ
+                  những bất tịnh tinh thần và đưa đến hạnh phúc cao cả nhất của
+                  việc hoàn toàn giải thoát.
+                </p>
+                <a href="#"><p class="readmore-link">Readmore</p></a>
+              </div>
+            </div>
+            <div class="grid-margin d-flex justify-content-center">
+              <div class="features-width">
+                <img src="images/Group7.svg" alt="" class="img-icons" />
+                <h5 class="py-3">SEO and<br />Backlinks</h5>
+                <p class="text-muted">
+                  Vipassana là con đường tự thay đổi bằng cách tự quan sát.
+                  Phương pháp thiền này chú trọng đến tương quan mật thiết giữa
+                  tâm và thân. Mối tương quan này có thể kinh nghiệm được trực
+                  tiếp bằng cách chú tâm thận trọng đến những cảm giác thực sự
+                  trên thân, những cảm giác luôn luôn đan xen và tạo ra các
+                  khuôn mẫu cho tâm. Hành trình quan sát và tự khám phá này đi
+                  vào cái gốc rễ chung của tâm và thân, từ đó xóa bỏ những bất
+                  tịnh tinh thần, mang đến một tâm quân bình tràn đầy tình
+                  thương và lòng từ bi.
+                </p>
+                <a href="#"><p class="readmore-link">Readmore</p></a>
+              </div>
+            </div>
+            <div class="grid-margin d-flex justify-content-end">
+              <div class="features-width">
+                <img src="images/Group5.svg" alt="" class="img-icons" />
+                <h5 class="py-3">Content<br />Marketing</h5>
+                <p class="text-muted">
+                  Những định luật khoa học vốn chi phối ý nghĩ, cảm xúc, sự phán
+                  xét, và cảm giác của con người trở nên rõ ràng, dễ hiểu. Thông
+                  qua những trải nghiệm trực tiếp, ta hiểu được sự tiến bộ hay
+                  thụt lùi của bản thân diễn ra như thế nào, việc bản thân tạo
+                  ra những khổ đau hay việc tự giải thoát mình khỏi khổ đau diễn
+                  ra ra sao. Cuộc sống của ta gia tăng hiểu biết, không còn ảo
+                  tưởng, tràn ngập tự chủ và an lạc.
+                </p>
+                <a href="#"><p class="readmore-link">Readmore</p></a>
+              </div>
             </div>
           </div>
-          <div class="grid-margin d-flex justify-content-center">
-            <div class="features-width">
-              <img src="images/Group7.svg" alt="" class="img-icons">
-              <h5 class="py-3">SEO and<br>Backlinks</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+        </section>
+        <section
+          class="digital-marketing-service"
+          id="digital-marketing-section"
+        >
+          <div class="row align-items-center">
+            <div
+              class="col-12 col-lg-7 grid-margin grid-margin-lg-0"
+              data-aos="fade-right"
+            >
+              <h3 class="m-0">Truyền thống<br />cổ xưa từ thời Đức Phật</h3>
+              <div class="col-lg-7 col-xl-6 p-0">
+                <p class="py-4 m-0 text-muted">
+                  Từ thời của Đức Phật, Vipasssana được lưu truyền cho tới ngày
+                  nay thông qua các thế hệ thiền sư nối tiếp nhau. Mặc dù là
+                  người Ấn độ, vị thiền sư hiện nay, ngài S.N. Goenka, sinh
+                  trưởng và lớn lên tại Miến điện. Trong thời gian sống tại đây,
+                  Thiền sư có diễm phúc được học Vipassana từ sư phụ, Sayagyi
+                  (Đại thiền sư) U Ba Khin, lúc đó là một viên chức cao cấp
+                  trong chính phủ. Sau khi tu tập với sư phụ được mười bốn năm,
+                  Thiền sư Goenka trở về cư ngụ tại Ấn độ và bắt đầu truyền dạy
+                  Vipassana vào năm 1969. Từ đó Thiền sư đã giảng dạy cho hàng
+                  chục ngàn thiền sinh thuộc mọi chủng tộc, mọi tôn giáo ở cả
+                  phương Đông và phương Tây. Năm 1982, Thiền sư bắt đầu bổ nhiệm
+                  các thiền sư phụ tá, nhằm giúp ngài phục vụ nhu cầu ngày càng
+                  gia tăng đối với các khóa Vipassana.
+                </p>
+                <p class="font-weight-medium text-muted">
+                  ...các khóa Vipassana.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0"
+              data-aos="fade-left"
+            >
+              <img src="images/Group1.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <div class="grid-margin d-flex justify-content-end">
-            <div class="features-width">
-              <img src="images/Group5.svg" alt="" class="img-icons">
-              <h5 class="py-3">Content<br>Marketing</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+          <div class="row align-items-center">
+            <div
+              class="col-12 col-lg-7 text-center flex-item grid-margin"
+              data-aos="fade-right"
+            >
+              <img src="images/Group2.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-12 col-lg-5 flex-item grid-margin"
+              data-aos="fade-left"
+            >
+              <h3 class="m-0">Thiền sư SN. Goenka<br />Tiểu sử</h3>
+              <div class="col-lg-9 col-xl-8 p-0">
+                <p class="py-4 m-0 text-muted">
+                  Thiền sư Goenka là một Thiền sư cư sĩ Vipassana theo truyền
+                  thống của Đại thiền sư quá cố Sayagyi U Ba Khin, người Miến
+                  điện (Mayamar). Mặc dù gốc là người Ấn độ, Ông Goenka sinh
+                  trưởng và lớn lên tại Miến điện. Trong thời gian cư ngụ tại
+                  Miến điện, Ông đã may mắn được gặp U ba Khin và được truyền
+                  dạy phương pháp Thiền Vipassana. Sau khi thụ huấn với sư phụ
+                  đuợc mười bốn năm, Ông Goenka về cư ngụ tại Ấn độ và bắt đầu
+                  giảng dạy Vipassana vào năm 1969. Trong một quốc gia còn nhiều
+                  chia rẽ bởi những giai cấp và tôn giáo khác nhau, những khoá
+                  thiền do Ông Goenka hướng dẫn đã thu hút hàng ngàn người thuộc
+                  mọi tầng lớp trong xã hội. Thêm vào đó, nhiều người từ những
+                  quốc gia trên khắp thế giới đã tới tham dự những khoá Thiền
+                  Vipassana. Ông Goenka đã giảng dạy cho hàng chục ngàn người
+                  trong hơn 300 khóa thiền tại Ấn độ và những nước khác, cả Đông
+                  phương lẫn Tây phương. Năm 1982, Ông bắt đầu bổ nhiệm những
+                  Thiền sư phụ tá để giúp thỏa mãn nhu cầu về thiền càng ngày
+                  càng gia tăng. Những Trung tâm Thiền đã được thành lập tại Ấn
+                  độ, Gia nã đại, Mỹ, Úc, Tân Tây Lan, Pháp, Anh, Nhật, Tích
+                  lan, Thái, Miến điện, Nepal, và những nước khác. Phương pháp
+                  mà Thiền sư S.N. Goenka giảng dạy tiêu biểu cho một truyền
+                  thống có từ thời của Đức Phật. Đức Phật không hề giảng dạy một
+                  giáo phái nào; Ngài giảng dạy Dhamma (Pháp) — con đường giải
+                  thoát — là đường lối phổ quát. Cùng một truyền thống đó, đường
+                  lối của Ông Goenka cũng hoàn toàn không tông phái. Vì lý do
+                  này, sự giảng dạy của Ông thu hút mạnh mẽ mọi người thuộc mọi
+                  giai cấp, mọi tôn giáo hoặc không theo tôn giáo nào, và từ
+                  khắp nơi trên thế giới.
+                </p>
+                <p class="pb-2 font-weight-medium text-muted">
+                  ....mọi giai cấp, mọi tôn giáo hoặc không theo tôn giáo nào, và từ
+                  khắp nơi trên thế giới.
+                </p>
+              </div>
+              <button class="btn btn-info">xem thêm</button>
             </div>
           </div>
-        </div>
-      </section>     
-      <section class="digital-marketing-service" id="digital-marketing-section">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-            <h3 class="m-0">We Offer a Full Range<br>of Digital Marketing Services!</h3>
-            <div class="col-lg-7 col-xl-6 p-0">
-              <p class="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <p class="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
-            </div>    
-          </div>
-          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
-            <img src="images/Group1.png" alt="" class="img-fluid">
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
-            <img src="images/Group2.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
-            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
-            <div class="col-lg-9 col-xl-8 p-0">
-              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+        </section>
+        <section class="case-studies" id="case-studies-section">
+          <div class="row grid-margin">
+            <div class="col-12 text-center pb-5">
+              <h2>Khóa thiền ở Việt Nam</h2>
+              <h6 class="section-subtitle text-muted">Địa điểm</h6>
             </div>
-            <button class="btn btn-info">Readmore</button>
-          </div>
-        </div>
-      </section>     
-      <section class="case-studies" id="case-studies-section">
-        <div class="row grid-margin">
-          <div class="col-12 text-center pb-5">
-            <h2>Our case studies</h2>
-            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-primary text-center card-contents">
-                  <div class="card-image">
-                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
-                      <button class="btn btn-white">Read More</button>
+            <div
+              class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0"
+              data-aos="zoom-in"
+            >
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-primary text-center card-contents">
+                    <div class="card-image">
+                      <img
+                        src="images/Group95.svg"
+                        class="case-studies-card-img"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="card-desc-box d-flex align-items-center justify-content-around"
+                    >
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Các địa điểm khác</h6>
+                        <button class="btn btn-white">Read More</button>
+                      </div>
                     </div>
                   </div>
-                </div>   
-                <div class="card-details text-center pt-4">
+                  <div class="card-details text-center pt-4">
                     <h6 class="m-0 pb-1">Online Marketing</h6>
                     <p>Seo, Marketing</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-warning text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
-                      <button class="btn btn-white">Read More</button>
+            <div
+              class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-warning text-center card-contents">
+                    <div class="card-image">
+                      <img
+                        src="images/Group108.svg"
+                        class="case-studies-card-img"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="card-desc-box d-flex align-items-center justify-content-around"
+                    >
+                      <div>
+                        <h6 class="text-white pb-2 px-3">
+                          Know more about Web Development
+                        </h6>
+                        <button class="btn btn-white">Read More</button>
+                      </div>
                     </div>
                   </div>
-                </div>   
-                <div class="card-details text-center pt-4">
+                  <div class="card-details text-center pt-4">
                     <h6 class="m-0 pb-1">Web Development</h6>
                     <p>Developing, Designing</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-violet text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
-                      <button class="btn btn-white">Read More</button>
+            <div
+              class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-violet text-center card-contents">
+                    <div class="card-image">
+                      <img
+                        src="images/Group126.svg"
+                        class="case-studies-card-img"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="card-desc-box d-flex align-items-center justify-content-around"
+                    >
+                      <div>
+                        <h6 class="text-white pb-2 px-3">
+                          Know more about Web Designing
+                        </h6>
+                        <button class="btn btn-white">Read More</button>
+                      </div>
                     </div>
                   </div>
-                </div>   
-                <div class="card-details text-center pt-4">
+                  <div class="card-details text-center pt-4">
                     <h6 class="m-0 pb-1">Web Designing</h6>
                     <p>Designing, Developing</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-success text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
-                  </div>  
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
-                      <button class="btn btn-white">Read More</button>
+            <div
+              class="col-12 col-md-6 col-lg-3 stretch-card"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-success text-center card-contents">
+                    <div class="card-image">
+                      <img
+                        src="images/Group115.svg"
+                        class="case-studies-card-img"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="card-desc-box d-flex align-items-center justify-content-around"
+                    >
+                      <div>
+                        <h6 class="text-white pb-2 px-3">
+                          Know more about Software Development
+                        </h6>
+                        <button class="btn btn-white">Read More</button>
+                      </div>
                     </div>
                   </div>
-                </div>   
-                <div class="card-details text-center pt-4">
+                  <div class="card-details text-center pt-4">
                     <h6 class="m-0 pb-1">Software Development</h6>
                     <p>Developing, Designing</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>     
-      <section class="customer-feedback" id="feedback-section">
-        <div class="row">
-          <div class="col-12 text-center pb-5">
-            <h2>What our customers have to say</h2>
-            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+        </section>
+        <section class="customer-feedback" id="feedback-section">
+          <div class="row">
+            <div class="col-12 text-center pb-5">
+              <h2>Cơ sở thiền Vipassana ở Việt Nam</h2>
+              <h6 class="section-subtitle text-muted m-0">
+                Hiện tại có 6 trung tâm thiền
+              </h6>
+            </div>
+            <div class="owl-carousel owl-theme grid-margin">
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face2.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt: 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">TX. Ngọc Thành</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Thủ Đức, Tp. HCM
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face3.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt: 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Chùa Y Sơn</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Đồng Nai
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face20.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt: 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Hoằng Nguyện</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Đồng Nai
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face15.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Chánh Đẳng Giác</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Tây Ninh
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face16.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">TX. Ngọc Chơn</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Buôn Hồ, Đak Lak
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img
+                      src="images/face1.jpg"
+                      width="89"
+                      height="89"
+                      alt=""
+                      class="img-customer"
+                    />
+                    <p class="m-0 py-3 text-muted">Sđt 090</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Hưng Yên</h6>
+                    <h6 class="customer-designation text-muted m-0">
+                      Hưng Yên
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="owl-carousel owl-theme grid-margin">
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact-us" id="contact-section">
-        <div class="contact-us-bgimage grid-margin" >
-          <div class="pb-4">
-            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any projects?</h4>
-            <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
-          </div>
-          <div data-aos="fade-up">
-            <button class="btn btn-rounded btn-outline-danger">Contact us</button>
-          </div>          
-        </div>
-      </section>
-      <section class="contact-details" id="contact-details-section">
-        <div class="row text-center text-md-left">
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <img src="images/Group2.svg" alt="" class="pb-2">
-            <div class="pt-2">
-              <p class="text-muted m-0">mikayla_beer@feil.name</p>
-              <p class="text-muted m-0">906-179-8309</p>
-            </div>         
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Get in Touch</h5>
-            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
-            <form>
-              <input type="text" class="form-control" id="Email" placeholder="Email id">
-            </form>
-            <div class="pt-3">
-              <button class="btn btn-dark">Subscribe</button>
-            </div>   
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Our Guidelines</h5>
-            <a href="#"><p class="m-0 pb-2">Terms</p></a>   
-            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
-            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
-            <a href="#"><p class="m-0 pt-1">Discover</p></a> 
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-              <h5 class="pb-2">Our address</h5>
-              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
-              <div class="d-flex justify-content-center justify-content-md-start">
-                <a href="#"><span class="mdi mdi-facebook"></span></a>
-                <a href="#"><span class="mdi mdi-twitter"></span></a>
-                <a href="#"><span class="mdi mdi-instagram"></span></a>
-                <a href="#"><span class="mdi mdi-linkedin"></span></a>
-              </div>
-          </div>
-        </div>  
-      </section>
-      <footer class="border-top">
-        <p class="text-center text-muted pt-4">Copyright © 2019<a href="https://www.bootstrapdash.com/" class="px-1">Bootstrapdash.</a>All rights reserved.</p>
+        </section>
 
-        <p class="text-center text-muted pt-2">Distributed By: <a href="https://www.themewagon.com/" class="px-1" target="_blank">Themewagon</a></p>
-      </footer>
-      <!-- Modal for Contact - us Button -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <label for="Name">Name</label>
-                  <input type="text" class="form-control" id="Name" placeholder="Name">
-                </div>
-                <div class="form-group">
-                  <label for="Email">Email</label>
-                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <label for="Message">Message</label>
-                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Submit</button>
-            </div>
-          </div>
-        </div>
+        <footer class="border-top">
+          <p class="text-center text-muted pt-4">
+            Đăng ký
+            <a
+              href="https://www.dhamma.org/vi/schedules/noncenter/vn"
+              class="px-1"
+              >--> Vipassana <--</a
+            >
+          </p>
+        </footer>
+
       </div>
-    </div> 
-  </div>
-  <script src="vendors/jquery/jquery.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.min.js"></script>
-  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
-  <script src="vendors/aos/js/aos.js"></script>
-  <script src="js/landingpage.js"></script>
-</body>
+    </div>
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="vendors/aos/js/aos.js"></script>
+    <script src="js/landingpage.js"></script>
+  </body>
 </html>
