@@ -16,13 +16,50 @@
     <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
     <link rel="stylesheet" href="vendors/aos/css/aos.css" />
     <link rel="stylesheet" href="css/style.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      .phone-icon,
+      .email-icon {
+        display: none; /* Ẩn biểu tượng mặc định */
+        margin-left: 5px; /* Khoảng cách giữa văn bản và biểu tượng */
+      }
+
+      .phone:hover .phone-icon,
+      .email:hover .email-icon {
+        display: inline; /* Hiện biểu tượng khi hover */
+      }
+
+      .btn-register {
+        background-color: #28a745; /* Màu nền nút */
+        color: white; /* Màu chữ */
+        transition: transform 0.3s, box-shadow 0.3s; /* Hiệu ứng chuyển động */
+        border-radius: 5px; /* Bo góc */
+        position: fixed; /* Giữ nút ở vị trí cố định */
+        bottom: 20px; /* Khoảng cách từ đáy trang */
+        left: 20px; /* Khoảng cách từ bên phải */
+        z-index: 1000; /* Đặt z-index cao để nút nổi trên các phần tử khác */
+      }
+
+      .btn-register:hover {
+        transform: scale(1.1); /* Tăng kích thước nút khi hover */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+      }
+    </style>
   </head>
   <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
     <header id="header-section">
       <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
         <div class="container">
           <div class="navbar-brand-wrapper d-flex w-100">
-            <img src="images/Group2.svg" alt="" />
+            <img src="images/logo.svg" alt="" />
             <button
               class="navbar-toggler ml-auto"
               type="button"
@@ -46,7 +83,7 @@
                 class="d-flex align-items-center justify-content-between pl-4 pl-lg-0"
               >
                 <div class="navbar-collapse-logo">
-                  <img src="images/Group2.svg" alt="" />
+                  <img src="images/logo.svg" alt="" />
                 </div>
                 <button
                   class="navbar-toggler close-button"
@@ -255,8 +292,8 @@
                   khắp nơi trên thế giới.
                 </p>
                 <p class="pb-2 font-weight-medium text-muted">
-                  ....mọi giai cấp, mọi tôn giáo hoặc không theo tôn giáo nào, và từ
-                  khắp nơi trên thế giới.
+                  ....mọi giai cấp, mọi tôn giáo hoặc không theo tôn giáo nào,
+                  và từ khắp nơi trên thế giới.
                 </p>
               </div>
               <button class="btn btn-info">xem thêm</button>
@@ -266,8 +303,8 @@
         <section class="case-studies" id="case-studies-section">
           <div class="row grid-margin">
             <div class="col-12 text-center pb-5">
-              <h2>Khóa thiền ở Việt Nam</h2>
-              <h6 class="section-subtitle text-muted">Địa điểm</h6>
+              <h2>Hình ảnh</h2>
+              <h6 class="section-subtitle text-muted">Vipassana</h6>
             </div>
             <div
               class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0"
@@ -293,8 +330,8 @@
                     </div>
                   </div>
                   <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Online Marketing</h6>
-                    <p>Seo, Marketing</p>
+                    <h6 class="m-0 pb-1">Trung tâm Vipassana</h6>
+                    <p>Ấn Độ</p>
                   </div>
                 </div>
               </div>
@@ -326,8 +363,8 @@
                     </div>
                   </div>
                   <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Development</h6>
-                    <p>Developing, Designing</p>
+                    <h6 class="m-0 pb-1">Trung tâm Vipassana</h6>
+                    <p>Ấn Độ</p>
                   </div>
                 </div>
               </div>
@@ -359,8 +396,8 @@
                     </div>
                   </div>
                   <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Designing</h6>
-                    <p>Designing, Developing</p>
+                    <h6 class="m-0 pb-1">Trung Tâm Vipassana</h6>
+                    <p>Myanmar</p>
                   </div>
                 </div>
               </div>
@@ -392,7 +429,7 @@
                     </div>
                   </div>
                   <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Software Development</h6>
+                    <h6 class="m-0 pb-1">Trung tâm Vipassana</h6>
                     <p>Developing, Designing</p>
                   </div>
                 </div>
@@ -527,6 +564,54 @@
           </div>
         </section>
 
+        <div class="container mt-4">
+          <h4>Thông tin liên hệ</h4>
+
+          <div class="row">
+            <div class="col-12 col-md-6 mb-2">
+              <strong>Điện thoại:</strong><br />
+              <p class="phone">
+                <a href="tel:0908277834">0908 277 834 (Ban ghi danh)</a>
+                <i class="fas fa-phone-alt phone-icon"></i>
+              </p>
+              <p class="phone">
+                <a href="tel:0355467753">0355 467 753 (BTC Thủ Đức, TP.HCM)</a>
+                <i class="fas fa-phone-alt phone-icon"></i>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+              <p>
+                <strong>Email:</strong><br />
+                <span class="email">
+                  <a href="mailto:registration@vn.dhamma.org"
+                    >registration@vn.dhamma.org</a
+                  >
+                  <i class="fas fa-envelope email-icon"></i>
+                </span>
+                (Đăng ký khóa thiền)<br />
+                <span class="email">
+                  <a href="mailto:info@vn.dhamma.org">info@vn.dhamma.org</a>
+                  <i class="fas fa-envelope email-icon"></i>
+                </span>
+                (Thông tin chung)<br />
+                <span class="email">
+                  <a href="mailto:at@vn.dhamma.org">at@vn.dhamma.org</a>
+                  <i class="fas fa-envelope email-icon"></i>
+                </span>
+                (Thầy Cô phụ giáo)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="btn btn-register"
+          onclick="window.location.href='https://www.dhamma.org/vi/schedules/noncenter/vn';"
+        >
+          Đăng Ký
+        </button>
+        <!-- Nút Đăng Ký -->
+
         <footer class="border-top">
           <p class="text-center text-muted pt-4">
             Đăng ký
@@ -537,9 +622,9 @@
             >
           </p>
         </footer>
-
       </div>
     </div>
+
     <script src="vendors/jquery/jquery.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
