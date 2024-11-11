@@ -52,6 +52,36 @@
         transform: scale(1.1); /* Tăng kích thước nút khi hover */
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
       }
+
+      .special-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.special-link:hover {
+  cursor: pointer;
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bounce:hover {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
     </style>
   </head>
   <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -113,7 +143,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#feedback-section">Địa điểm</a>
               </li>
-              <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+              <li class="nav-item  btn-contact-us pl-4 pl-lg-0">
                 <button
                   class="btn btn-info"
                   data-toggle="modal"
@@ -139,7 +169,7 @@
         </h6>
         <div>
           <button
-            class="btn btn-opacity-light mr-1"
+            class="btn btn-info mr-1"
             onclick="window.open('https://www.dhamma.org/vi/schedules/noncenter/vn', '_blank');"
           >
             Đăng ký
@@ -301,7 +331,8 @@
               <h6 class="section-subtitle text-muted">
                 Có 246 trung tâm thiền<br />
                 và 129 cơ sở <br />
-                https://www.dhamma.org/en-US/locations/directory
+                <a href="https://www.dhamma.org/en-US/locations/directory">
+                  https://www.dhamma.org/en-US/locations/directory</a>
               </h6>
             </div>
 
@@ -493,7 +524,7 @@
                   >
                   <i class="fas fa-envelope email-icon"></i>
                 </span>
-                (Đăng ký khóa thiền)<br />
+                (Đăng ký)<br />
                 <span class="email">
                   <a href="mailto:info@vn.dhamma.org">info@vn.dhamma.org</a>
                   <i class="fas fa-envelope email-icon"></i>
@@ -523,8 +554,10 @@
             <a
               href="https://www.dhamma.org/vi/schedules/noncenter/vn"
               target="_blank"
-              class="px-1"
-              >--> Vipassana <--</a
+              class="px-1 special-link bounce"
+              >
+              https://www.dhamma.org/vi/schedules/noncenter/vn
+              </a
             >
           </p>
         </footer>
