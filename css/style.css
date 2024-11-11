@@ -10286,3 +10286,71 @@ footer a:hover {
   justify-content: flex-start;
   padding: 5px 0px 20px 39px;
 }
+
+/* Căn chỉnh banner cho toàn màn hình và responsive */
+/* Kiểu banner cho màn hình lớn */
+.top-banner {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Chiều cao cho màn hình lớn */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Kiểu banner cho màn hình nhỏ (ví dụ dưới 768px) */
+@media (max-width: 768px) {
+  .top-banner {
+    height: 30vh; /* Chiều cao giảm cho màn hình nhỏ */
+  }
+}
+
+
+
+.phone-icon,
+.email-icon {
+  display: none; /* Ẩn biểu tượng mặc định */
+  margin-left: 5px; /* Khoảng cách giữa văn bản và biểu tượng */
+}
+
+.phone:hover .phone-icon,
+.email:hover .email-icon {
+  display: inline; /* Hiện biểu tượng khi hover */
+}
+
+
+
+.special-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.special-link:hover {
+  cursor: pointer;
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bounce:hover {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

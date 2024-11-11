@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Vipassana</title>
+    <title>Vipassana Việt Nam</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/style.css">
     <link
       rel="stylesheet"
       href="vendors/owl-carousel/css/owl.carousel.min.css"
@@ -25,66 +26,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+
     <style>
-      .phone-icon,
-      .email-icon {
-        display: none; /* Ẩn biểu tượng mặc định */
-        margin-left: 5px; /* Khoảng cách giữa văn bản và biểu tượng */
-      }
-
-      .phone:hover .phone-icon,
-      .email:hover .email-icon {
-        display: inline; /* Hiện biểu tượng khi hover */
-      }
-
       .btn-register {
-        background-color: #28a745; /* Màu nền nút */
-        color: white; /* Màu chữ */
-        transition: transform 0.3s, box-shadow 0.3s; /* Hiệu ứng chuyển động */
-        border-radius: 5px; /* Bo góc */
-        position: fixed; /* Giữ nút ở vị trí cố định */
-        bottom: 20px; /* Khoảng cách từ đáy trang */
-        left: 20px; /* Khoảng cách từ bên phải */
-        z-index: 1000; /* Đặt z-index cao để nút nổi trên các phần tử khác */
-      }
-
-      .btn-register:hover {
-        transform: scale(1.1); /* Tăng kích thước nút khi hover */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
-      }
-
-      .special-link {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-  transition: all 0.3s ease;
+  background-color: #28a745; /* Màu nền nút */
+  color: white; /* Màu chữ */
+  transition: transform 0.3s, box-shadow 0.3s; /* Hiệu ứng chuyển động */
+  border-radius: 5px; /* Bo góc */
+  position: fixed; /* Giữ nút ở vị trí cố định */
+  bottom: 20px; /* Khoảng cách từ đáy trang */
+  left: 20px; /* Khoảng cách từ bên phải */
+  z-index: 1000; /* Đặt z-index cao để nút nổi trên các phần tử khác */
 }
 
-.special-link:hover {
-  cursor: pointer;
-  color: #0056b3;
-  text-decoration: underline;
-  transform: scale(1.1);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.btn-register:hover {
+  transform: scale(1.1); /* Tăng kích thước nút khi hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
 }
-
-.bounce:hover {
-  animation: bounce 1s ease infinite;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-
     </style>
+   
   </head>
   <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <div class="top-banner">
+      <img src="/images/banner.jpg" alt="Banner" />
+    </div>
+
     <header id="header-section">
       <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
         <div class="container">
@@ -133,10 +99,11 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#features-section">Vipassana</a>
+                <a class="nav-link" href="#vipassana">Vipassana</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#digital-marketing-section"
+                <a class="nav-link" href="#sngoenka"
                   >SN.Goenka</a
                 >
               </li>
@@ -158,6 +125,7 @@
         </div>
       </nav>
     </header>
+
     <div class="banner">
       <div class="container">
         <h1 class="font-weight-semibold">
@@ -180,7 +148,7 @@
       </div>
     </div>
     <div class="content-wrapper">
-      <div class="container">
+      <div class="container" id="vipassana">
         <section class="features-overview" id="features-section">
           <div class="content-header">
             <h2>Vipassana là gì?</h2>
@@ -281,7 +249,7 @@
                 />
               </div>
 
-              <div class="col-12 col-md-6 col-lg-6">
+              <div class="col-12 col-md-6 col-lg-6" id="sngoenka">
                 <h3 class="m-0">Thiền sư SN. Goenka</h3>
                 <p class="py-4 m-0 text-muted" style="text-align: justify">
                   Thiền sư Goenka là một Thiền sư cư sĩ Vipassana theo truyền
